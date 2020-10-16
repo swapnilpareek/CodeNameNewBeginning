@@ -1576,9 +1576,9 @@ h2.flesttile {
     margin-top: 20%;
 }
 
-.image-about {
+/* .image-about {
     position: relative;
-}
+} */
 
 .caption-abtimg {
     position: absolute;
@@ -1818,7 +1818,7 @@ p.wid203 {
     margin-bottom: 10px;
     padding-top: 3%;
 }
-body.fp-viewing-largest nav.main_menu li a.largest:after,
+
 body.fp-viewing-introducing nav.main_menu li a.introducing:after,
 body.fp-viewing-home nav.main_menu li a.Highlight:after,
 body.fp-viewing-amenities nav.main_menu li a.Amenities:after, 

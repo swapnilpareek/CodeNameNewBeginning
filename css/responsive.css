@@ -26,11 +26,11 @@
     div#section1 .features_list h3.title_3 {
         margin-top: 0;    
     }
-    .about-section h3.title_3 {
+    /* .about-section h3.title_3 {
         padding-top: 0px;
         margin-top: 14px;
         line-height: normal;
-    }
+    } */
     .all_amenities .title_3 {
     margin-bottom: 10px;
     padding-top: 8%;
@@ -71,7 +71,7 @@
     z-index: 9;
 }
 
- .about-section a.toptop {
+ /* .about-section a.toptop {
             position: absolute;
             bottom: 10%;
             right: 4%;
@@ -102,7 +102,7 @@
         justify-content: center;
         font-size: 22px;
         z-index: 9;
-    }
+    } */
 
     .map_sec a.toptop {
             position: absolute;
@@ -120,7 +120,7 @@
             font-size: 22px;
             z-index: 9;
         }
-       .about-section  a.topbottom {
+       /* .about-section  a.topbottom {
         position: absolute;
         bottom: 10%;
         right: 1%;
@@ -135,7 +135,7 @@
         justify-content: center;
         font-size: 22px;
         z-index: 9;
-    }
+    } */
     
 
 }
@@ -993,9 +993,9 @@
     .slidefloorplan .slick-next{
         right:0%;
     }
-    .about-section .row-flex{
+    /* .about-section .row-flex{
         padding:0 20px;
-    }
+    } */
 
     h2.flesttile{
         font-size:30px;
@@ -1012,16 +1012,16 @@
         justify-content:center;
     }
 
-    .image-about{
+    /* .image-about{
         width:45%;
         margin:0 2.5%;
         display:flex;
         flex-wrap:wrap;
-    }
+    } */
 
-    .about-section .section2_des__head_sec{
+    /* .about-section .section2_des__head_sec{
         padding:0 25px;
-    }
+    } */
 
     .caption-abtimg{
         position:static;
@@ -1132,9 +1132,9 @@
         padding:30px 25px 55px;
     }
 
-    .about-section{
+    /* .about-section{
         padding:45px 0px 55px;
-    }
+    } */
 
     .apt_download h4, .apt_download h5 a{
         font-size: 16px;
@@ -1327,10 +1327,10 @@
         justify-content:space-between;
     }
 
-    .image-about {
+    /* .image-about {
         width: 48%;
         margin: 0 0%;
-    }
+    } */
 
     .caption-abtimg{
         width:51%;
@@ -1590,10 +1590,10 @@
         flex-wrap:wrap;
     }
 
-    .image-about{
+    /* .image-about{
         width:95%;
         margin:0 2.5% 25px;
-    }
+    } */
 
     .caption-abtimg{
         padding:35px 15px;
@@ -1800,15 +1800,15 @@
         margin: 87px 0 0;
     }
 
-    .image-about{
+    /* .image-about{
         text-align:center;
         background: #e9e8d6;
         padding:20px 0 5px;
-    }
+    } */
 
-    .image-about img{
+    /* .image-about img{
         margin:0 auto;
-    }
+    } */
 
     .caption-abtimg{
         width:100%;

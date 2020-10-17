@@ -993,9 +993,9 @@
     .slidefloorplan .slick-next{
         right:0%;
     }
-    /* .about-section .row-flex{
+    .about-section .row-flex{
         padding:0 20px;
-    } */
+    }
 
     h2.flesttile{
         font-size:30px;
@@ -1132,9 +1132,9 @@
         padding:30px 25px 55px;
     }
 
-    /* .about-section{
+    .about-section{
         padding:45px 0px 55px;
-    } */
+    }
 
     .apt_download h4, .apt_download h5 a{
         font-size: 16px;
@@ -1590,10 +1590,10 @@
         flex-wrap:wrap;
     }
 
-    /* .image-about{
+    .image-about{
         width:95%;
         margin:0 2.5% 25px;
-    } */
+    }
 
     .caption-abtimg{
         padding:35px 15px;
@@ -1800,15 +1800,15 @@
         margin: 87px 0 0;
     }
 
-    /* .image-about{
+    .image-about{
         text-align:center;
         background: #e9e8d6;
         padding:20px 0 5px;
-    } */
+    }
 
-    /* .image-about img{
+    .image-about img{
         margin:0 auto;
-    } */
+    }
 
     .caption-abtimg{
         width:100%;

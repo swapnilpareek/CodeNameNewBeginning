@@ -27,6 +27,8 @@
     <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- CSS Bootdtrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVLN55"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -82,21 +84,23 @@
     <div class="wrapper">
               
         <div class="siderBarform2">
-            <div id="" class="filter_btn2">
+            <div id="form1" class="filter_btn2">
                 <img src="images/call_ver.png">
             </div>
             <a href="tel:1800 267 9606">1800 267 9606</a>
         </div>
         <div class="siderBarform">
-            <div id="" class="filter_btn1"><img src="images/enq_ver.png"></div>
-            <form action="emailpro.php" method="post" autocomplete="off" id="send_query" novalidate="novalidate">
-                <ul class="reset">
-                    <li><input name="name" id="name" type="text" placeholder="Name*"></li>
-                    <li><input name="email" id="email" type="text" placeholder="Email*"></li>
-                    <li><input name="mobile" id="mobile" type="text" placeholder="Phone*"></li>
-                    <li><button type="submit" class="send_msg">Submit</button></li>
-                </ul>
-            </form>
+            <div id="form2" class="filter_btn1" data-toggle="modal" data-dismiss="modal" data-target="#send_query"><img src="images/enq_ver.png"></div>
+            <div class="modal">
+                <form action="emailpro.php" method="post" autocomplete="off" id="send_query" novalidate="novalidate" class="form-group">
+                    <ul class="reset">
+                        <li><input name="name" class="form-control" id="name" type="text" placeholder="Name*"></li>
+                        <li><input name="email" class="form-control" id="email" type="text" placeholder="Email*"></li>
+                        <li><input name="mobile" class="form-control" id="mobile" type="text" placeholder="Phone*"></li>
+                        <li><button type="submit" class="send_msg">Submit</button></li>
+                    </ul>
+                </form>
+            </div>
         </div>
         <div id="header">
             <div class="max_container">
@@ -1284,6 +1288,17 @@ $ ('.ps-timeline li:odd').addClass('odd');
     });
 
 </script>
+<!-- <script>
+    document.getElementById("form2").addEventListener("click",function(){
+        document.querySelector(".popup2").style.display="flex";
+    })
+    document.querySelector(".filter_btn1").addEventListener("click", function () {
+            document.querySelector(".popup2").style.display = "none";
+    })
+</script> -->
 <script src="https://s3-ap-southeast-1.amazonaws.com/assets.ngauge.co/javascripts/ecommerce.js" type="text/javascript"></script>
+<!-- js and jquery bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

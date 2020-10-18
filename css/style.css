@@ -102,6 +102,7 @@ body {
     line-height: normal;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
 h4.title_4.designsds {
 font-family: 'Baskerville Normal';
@@ -1071,10 +1072,10 @@ a.down_icon {
     margin: 0 auto;
 }
 
-.foor_plan_list ul {
+/* .foor_plan_list ul {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
 .foor_plan_list ul li:first-child {
     margin-left: 0;
@@ -1391,11 +1392,11 @@ a.down_icon {
 
 .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
     content: '';
-    color: #;
+    /* color: ; */
     background: url(../images/dash-border.png) no-repeat;
     height: 66px;
     width: 1px;
-    background: #;
+    /* background: ; */
     position: absolute;
     bottom: -68px;
     left: 50%;

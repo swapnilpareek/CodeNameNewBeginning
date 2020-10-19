@@ -258,7 +258,7 @@ font-family: 'Open Sans', sans-serif;
 #header {
     background: #231f20;
     height: auto;
-    position: fixed;
+    /* position: fixed; */
     display: block;
     width: 100%;
     z-index: 9;

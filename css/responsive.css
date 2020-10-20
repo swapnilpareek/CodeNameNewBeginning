@@ -182,13 +182,13 @@
         width: 80%;
     }
     .filter_btn2 {
-        left: -38px;
+        left: -30px;
     }
     .filter_btn1 img {
         width: 80%;
     }
     .filter_btn1 {
-        left: -38px;
+        left: -30px;
     }
     .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
         position: absolute;
@@ -813,7 +813,7 @@
     }
     .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
         content: '';
-        color: #;
+        /* color: #; */
         background: url(../images/dash-border.png) no-repeat;
         height: 42px;
         width: 1px;

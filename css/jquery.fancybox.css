@@ -148,7 +148,6 @@
 }
 
 .fancybox-slide--image {
-    overflow: hidden;
     padding: 44px 0;
 }
 
@@ -270,7 +269,6 @@
     display: block;
     height: 100%;
     margin: 0;
-    overflow: hidden;
     padding: 0;
     width: 100%;
 }

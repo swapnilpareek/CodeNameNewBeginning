@@ -32,7 +32,6 @@
 .fp-slides {
     z-index:1;
     height:100%;
-    overflow: hidden;
     position:relative;
     -webkit-transition:all .3s ease-out;
     transition:all .3s ease-out;

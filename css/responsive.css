@@ -815,7 +815,7 @@
     }
     .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
         content: '';
-        color: #;
+        /* color: #; */
         background: url(../images/dash-border.png) no-repeat;
         height: 42px;
         width: 1px;        

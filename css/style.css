@@ -276,7 +276,6 @@ font-family: 'Open Sans', sans-serif;
 .wrapper {
     width: 100%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .container {
@@ -1391,11 +1390,11 @@ a.down_icon {
 
 .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
     content: '';
-    color: #;
+    /* color: #; */
     background: url(../images/dash-border.png) no-repeat;
     height: 66px;
     width: 1px;
-    background: #;
+    /* background: #; */
     position: absolute;
     bottom: -68px;
     left: 50%;

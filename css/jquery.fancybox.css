@@ -13,7 +13,7 @@
 }
 
 .fancybox-container {
-    -webkit-backface-visibility: hidden;
+    visibility: hidden;
     height: 100%;
     left: 0;
     outline: none;
